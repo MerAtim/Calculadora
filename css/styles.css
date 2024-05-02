@@ -1,0 +1,79 @@
+html {
+  background-color: rgb(126, 126, 126);
+  background-image: url("../assets/math.png");
+}
+
+
+.container {
+  display: flex;
+  max-width: 5000px;
+  margin: 50px auto;
+  padding: 50px;
+  border: 1px solid #002e05;
+  text-align: center;
+  flex-direction: column;
+  gap: 30px;
+  color: #eeff02;
+  background-color: black;
+}
+
+.container .item {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  input {
+    width: 20rem;
+    align-self: center;
+  }
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffff00;
+  border-radius: 10px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  width: 30%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 35px;
+  width: 100px;
+  background-color: rgba(194, 194, 192, 0.673);
+  font-weight: bolder;
+  color: #000000;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #9de64ee6;
+  color: #000000;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 50px;
+  width: 130px;
+  font-weight: bolder;
+  font-size: larger;
+  align-self: center;
+}
+
+button:hover {
+  background-color: rgb(255, 255, 0);
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: x-large;
+}
