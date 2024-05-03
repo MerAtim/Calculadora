@@ -5,7 +5,7 @@ function calcular() {
     
     if (!isNaN(valor1) && !isNaN(valor2)) {
         var resultado = document.getElementById("resultado")
-        resultado.innerHTML = nombre + ", las operaciones son:<br>"
+        resultado.innerHTML = nombre + ", los resultados son:<br>"
         resultado.innerHTML += "Suma: " + (valor1 + valor2) + "<br>"
         resultado.innerHTML += "Resta: " + (valor1 - valor2) + "<br>"
         resultado.innerHTML += "Multiplicación: " + (valor1 * valor2) + "<br>"

@@ -3,17 +3,14 @@ body {
 }
 
 .contenedor {
-  /*background-image: url("../assets/math.png");*/
   display: flex;
   width: 50%;
   margin: 50px auto;
   padding: 50px;
-  /*border: 1px solid rgb(62, 95, 119);*/
   text-align: center;
   flex-direction: column;
   gap: 30px;
-  color: #eeff02;
-  /*background-color: rgba(62, 95, 119, 0.5);*/
+  color: #37ff00;
   background: transparent;
 }
 
@@ -31,7 +28,7 @@ body {
 label {
   display: block;
   margin-bottom: 5px;
-  color: #ffff00;
+  color: #37ff00;
   border-radius: 10px;
   font-size: larger;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -41,18 +38,19 @@ input {
   width: 30%;
   margin-bottom: 10px;
   border-radius: 5px;
-  height: 35px;
+  height: 45px;
   width: 100px;
-  background-color: rgba(194, 194, 192, 0.673);
+  background-color: rgba(71, 70, 70, 0.673);
   font-weight: bolder;
-  color: #000000;
+  color: #37ff00;
+  font-size: xx-large;
 }
 
 button {
   padding: 10px 20px;
   background-color: #9de64ee6;
   color: #000000;
-  border-radius: 50px;
+  border-radius: 20%;
   cursor: pointer;
   height: 50px;
   width: 130px;
@@ -68,6 +66,7 @@ button:hover {
 #resultado {
   margin-top: 20px;
   font-weight: bold;
+  font-size: x-large;
 }
 
 .montserrat {
