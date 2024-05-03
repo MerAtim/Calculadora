@@ -1,23 +1,23 @@
-html {
-  background-color: rgb(126, 126, 126);
+body {
   background-image: url("../assets/math.png");
 }
 
-
-.container {
+.contenedor {
+  /*background-image: url("../assets/math.png");*/
   display: flex;
-  max-width: 5000px;
+  width: 50%;
   margin: 50px auto;
   padding: 50px;
-  border: 1px solid #002e05;
+  /*border: 1px solid rgb(62, 95, 119);*/
   text-align: center;
   flex-direction: column;
   gap: 30px;
   color: #eeff02;
-  background-color: black;
+  /*background-color: rgba(62, 95, 119, 0.5);*/
+  background: transparent;
 }
 
-.container .item {
+.contenedor .item {
   display: flex;
   flex-direction: column;
   align-self: center;
