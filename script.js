@@ -22,3 +22,12 @@ function calcular() {
 function diver(str) {
     return '<span class="tag">' + str +'</span>';
 }
+function borrar(){
+   
+        document.getElementById("nombre").value = "";
+        document.getElementById("valor1").value = "";
+        document.getElementById("valor2").value = "";
+        document.getElementById("resultado").innerHTML = "";
+     
+   
+}

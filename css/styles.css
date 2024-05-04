@@ -10,7 +10,7 @@ body {
   text-align: center;
   flex-direction: column;
   gap: 30px;
-  color: #37ff00;
+  color: #00ffa6;
   background: transparent;
 }
 
@@ -19,6 +19,7 @@ body {
   flex-direction: column;
   align-self: center;
   text-align: center;
+
   input {
     width: 20rem;
     align-self: center;
@@ -26,7 +27,7 @@ body {
     height: 45px;
     background-color: rgba(71, 70, 70, 0.673);
     font-weight: bolder;
-    color: #37ff00;
+    color: rgb(255, 255, 255);
     font-size: x-large;
   }
 }
@@ -34,7 +35,7 @@ body {
 label {
   display: block;
   margin-bottom: 5px;
-  color: #37ff00;
+  color:#00ffa6;
   border-radius: 10px;
   font-size: larger;
   text-align: left;
@@ -51,7 +52,8 @@ button {
   align-self: center;
   text-align: center;
   font-weight: bold;
-}
+  
+  }
 
 button:hover {
   background-color: rgb(255, 255, 0);
@@ -72,14 +74,20 @@ button:hover {
   color: rgb(255, 255, 0);
 }
 
-.montserrat {
-  font-family: "Montserrat", sans-serif;
+.lexend {
+  font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bolder;
   font-style: normal;
-  font-size: x-large;
 }
+
 
 h1 {
   font-size: 3rem;
+}
+
+.botones{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-self: center;
 }
