@@ -1,6 +1,6 @@
 body {
   background-image: url("../assets/math.png");
-}
+ }
 
 .contenedor {
   display: flex;
@@ -84,6 +84,8 @@ button:hover {
 
 h1 {
   font-size: 3rem;
+  position: relative;
+  align-self: center;
 }
 
 .botones{
