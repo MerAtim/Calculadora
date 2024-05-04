@@ -22,6 +22,12 @@ body {
   input {
     width: 20rem;
     align-self: center;
+    border-radius: 10px;
+    height: 45px;
+    background-color: rgba(71, 70, 70, 0.673);
+    font-weight: bolder;
+    color: #37ff00;
+    font-size: x-large;
   }
 }
 
@@ -31,32 +37,20 @@ label {
   color: #37ff00;
   border-radius: 10px;
   font-size: larger;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-input {
-  width: 30%;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  height: 45px;
-  width: 100px;
-  background-color: rgba(71, 70, 70, 0.673);
-  font-weight: bolder;
-  color: #37ff00;
-  font-size: xx-large;
+  text-align: left;
 }
 
 button {
   padding: 10px 20px;
   background-color: #9de64ee6;
   color: #000000;
-  border-radius: 20%;
+  border-radius: 10px;
+  border: none;
   cursor: pointer;
-  height: 50px;
-  width: 130px;
-  font-weight: bolder;
   font-size: larger;
   align-self: center;
+  text-align: center;
+  font-weight: bold;
 }
 
 button:hover {
@@ -65,8 +59,17 @@ button:hover {
 
 #resultado {
   margin-top: 20px;
-  font-weight: bold;
   font-size: x-large;
+  /* color: rgb(255, 255, 0); */
+  color:white;
+  text-align: start;
+  align-self: center;
+  font-weight: bolder;
+}
+
+.tag {
+  font-weight: bolder;
+  color: rgb(255, 255, 0);
 }
 
 .montserrat {
@@ -75,4 +78,8 @@ button:hover {
   font-weight: bolder;
   font-style: normal;
   font-size: x-large;
+}
+
+h1 {
+  font-size: 3rem;
 }
